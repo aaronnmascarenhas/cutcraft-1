@@ -1,0 +1,6 @@
+{
+  "name": "CutCraft — AI Creative Studio & Video Editor",
+  "description": "Create Beyond Limits. Turn raw footage into scroll-stopping short clips, generate AI visuals, craft captions, and edit videos supercharged by Presetly and NVIDIA AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #00002A;
+  --color-panel-primary: #0D1B46;
+  --color-panel-card: #112653;
+  --color-panel-elevated: #183566;
+  --color-border-subtle: #203B70;
+  --color-primary-green: #39E75F;
+  --color-accent-cyan: #00D9FF;
+  --color-ai-violet: #8B5CFF;
+  --color-text-primary: #F5F8FF;
+  --color-text-secondary: #A8BEDF;
+  --color-text-muted: #7895BE;
+  --color-error-red: #FF5A6E;
+  --color-warning-amber: #F5C76A;
+}
+
+@layer base {
+  :root {
+    --bg-midnight: #00002A;
+    --bg-panel: #0D1B46;
+    --bg-card: #112653;
+    --bg-elevated: #183566;
+    --border-subtle: #203B70;
+    --accent-green: #39E75F;
+  }
+
+  body {
+    background-color: #00002A;
+    color: #F5F8FF;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Slim sophisticated dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #00002A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #112653;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #39E75F;
+}
